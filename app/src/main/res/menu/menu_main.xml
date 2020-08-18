@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.itunessearchassesment.MainActivity">
+    <item
+        android:id="@+id/collection_name"
+        android:orderInCategory="100"
+        android:title="@string/collection_name"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/track_name"
+        android:orderInCategory="100"
+        android:title="@string/track_name"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/artist_name"
+        android:orderInCategory="100"
+        android:title="@string/artist_name"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/collection_price"
+        android:orderInCategory="100"
+        android:title="@string/collection_price"
+        app:showAsAction="never" />
+
+</menu>

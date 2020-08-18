@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/ITunesMusicFragment">
+
+    <fragment
+        android:id="@+id/ITunesMusicFragment"
+        android:name="com.itunessearchassesment.view.fragments.ITunesMusicFragment"
+        android:label="ITunesMusicFragment"
+        tools:layout="@layout/fragment_i_tunes_music" >
+        <action
+            android:id="@+id/action_ITunesMusicFragment_to_fragmentCartItem"
+            app:destination="@id/fragmentCartItem" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentCartItem"
+        android:name="com.itunessearchassesment.view.fragments.FragmentCartItem"
+        android:label="FragmentCartItem"
+        tools:layout="@layout/fragment_cart_item" />
+</navigation>
